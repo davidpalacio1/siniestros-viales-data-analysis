@@ -1,22 +1,11 @@
 # 🚦 Siniestros Viales Fatales · CABA 2019–2024
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://siniestros-viales-caba.streamlit.app)
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidpalacio1/TP-3-Siniestros/blob/main/TP3_Siniestros_Viales_REAL.ipynb)
 
 Análisis completo de víctimas **fatales** en siniestros viales de la Ciudad de Buenos Aires (2019–2024), basado en **datos oficiales** del Observatorio de Movilidad y Seguridad Vial (OMSV) del GCBA.
 
 > **610 víctimas fatales · 6 años de datos · Fuente: Buenos Aires Data (GCBA) · Licencia CC Attribution**
-
----
-
-## 🔴 Dashboard interactivo
-
-**[→ Abrir dashboard](https://siniestros-viales-caba.streamlit.app)**
-
-Permite explorar los datos con filtros interactivos (período, modo, sexo) y presenta:
-- KPIs en tiempo real · Evolución anual 2019–2024 · Composición por modo
-- Distribución por sexo y edad · Estacionalidad mensual · Tabla resumen por perfil
-- Recomendaciones de política pública basadas en los datos
 
 ---
 
@@ -60,9 +49,7 @@ La expansión de ciclovías no contuvo la siniestralidad ciclista.
 
 ```
 TP-3-Siniestros/
-├── app.py                                  # Dashboard Streamlit
 ├── siniestros_viales_victimas.csv          # Dataset oficial (Buenos Aires Data · GCBA)
-├── requirements.txt                        # Dependencias
 ├── TP3_Siniestros_Viales_REAL.ipynb       # Notebook de análisis completo
 └── README.md
 ```
